@@ -5,7 +5,7 @@ public class Arrays {
         int last= array[array.length-1];
         int mid= array[array.length/2];
         array[0]=last;
-        array[4]=first;
+        array[array.length-1]=first;
 
         System.out.println(array[0]+mid);
     }
