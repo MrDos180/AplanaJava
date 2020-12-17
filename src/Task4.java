@@ -14,5 +14,6 @@ public class Task4 {
         if (d > 3) {
             System.out.println("Программа выполнена корректно");
         }
+        reader.close();
     }
 }

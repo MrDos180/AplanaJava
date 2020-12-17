@@ -109,6 +109,7 @@ public class Task6 {
                     break;
             }
         }
+        reader.close();
     }
 }
 

@@ -24,5 +24,6 @@ public class Task5 {
         } else {
             System.out.println("Неверно указан оператор");
         }
+        reader.close();
     }
 }
