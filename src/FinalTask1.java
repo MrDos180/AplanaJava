@@ -7,6 +7,6 @@ public class FinalTask1 {
         double dollar= sc.nextDouble();
         System.out.println("Введите количество рублей");
         double ruble = sc.nextDouble();
-        System.out.printf("Итого %.2f %n", dollar*ruble);
+        System.out.printf("Итого %.2f %n", ruble/dollar);
     }
 }
