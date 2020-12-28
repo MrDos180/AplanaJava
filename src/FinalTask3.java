@@ -13,7 +13,7 @@ public class FinalTask3 {
         Set<Character> set = new HashSet<>();
         int max1 = 0;
         int max2 = 0;
-        int count = 0;
+        String maxWord = null;
 
         for (int i = 0; i < a; i++) {
             array[i] = sc.next();
@@ -24,13 +24,14 @@ public class FinalTask3 {
                     max1++;
                 }
             }
-            if (max1 >= max2) {
+            if (max1 > max2) {
                 max2 = max1;
-                count++;
+                maxWord=array[i];
+
             }
             set.clear();
             max1 = 0;
         }
-        System.out.println("Строка с максимальным количеством различных символов: " + array[count - 1]);
+        System.out.println("Строка с максимальным количеством различных символов: " + maxWord);
     }
 }
